@@ -1,7 +1,7 @@
 {
   "name": "react-native-gps-state-sallar",
   "description": "React Native Listener for GPS status changes",
-  "version": "1.0",
+  "version": "1.0.0",
   "main": "index.js",
   "repository": {
     "type": "git",
