@@ -1,7 +1,7 @@
 # React Native GPS State
 
 ### React Native Listener for GPS status changes
-This library will emit an event whenever there is a change in the GPS status, like when the permission was rejected or when the user disables Location Service in the phone settings.
+This lib will emitevent wheneaver the GPS status change, like when the permission was rejected or user disable Location service in system Settings.
 
 ### Instalation
 1. Add library to project
@@ -9,7 +9,7 @@ This library will emit an event whenever there is a change in the GPS status, li
    - OR `npm install --save react-native-gps-state`
 2. Link library to project
    - `react-native link react-native-gps-state`
-
+   
 If the link fails, do a manual setup:
 
 #### Android
@@ -26,7 +26,7 @@ project(':react-native-gps-state').projectDir = new File(rootProject.projectDir,
 ```gradle
 dependencies {
    ...
-   implementation project(':react-native-gps-state')
+   compile project(':react-native-gps-state')
 }
 ```
 
@@ -51,10 +51,10 @@ protected List<ReactPackage> getPackages() {
 ```
 
 
-### Usage
+### Usage 
 
 ### Constants
-| Platform 			| Status Code 	| Constant 				| Description
+| Platform 			| Status Code 	| Constant 				| Description 		
 | :--- 				| :---:			| :--- 					| :---
 | IOS/Android		| 0 	 		| NOT_DETERMINED 		| The user has not yet made a choice regarding whether this app can use location services.
 | IOS/Android		| 1 	 		| RESTRICTED 			| This app is not authorized to use location services.
