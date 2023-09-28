@@ -9,11 +9,11 @@ Pod::Spec.new do |s|
   s.description  = package["description"]
   s.license      = "MIT"
   s.author       = package["author"]
-  s.homepage     = "https://github.com/neuberoliveira/react-native-gps-state"
+  s.homepage     = "https://github.com/sallarahmed/react-native-gps-state"
   s.requires_arc = true
   s.platform     = :ios, '9.0'
 
-  s.source       = { :git => "https://github.com/neuberoliveira/react-native-gps-state.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/sallarahmed/react-native-gps-state.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m}"
 
